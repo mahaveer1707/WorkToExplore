@@ -33,5 +33,12 @@ COUNTRIES = {
         "region": "Asia",
         "currency": "MYR",
         "population": 210994011
+    },
+    "AU": {
+        "name": "Australia",
+        "capital": "Sydney",
+        "region": "APAC",
+        "currency": "AUD",
+        "population": 20349810
     }
 }
