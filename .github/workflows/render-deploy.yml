@@ -28,8 +28,11 @@ jobs:
 
       # Step 4: Run tests
       - name: Run Tests
+        working-directory: country-api
         run: |
-          pytest country-api/tests || exit 1
+            pip install -r requirements.txt
+            pytest tests || exit 1
+
 
       # Step 5: Trigger Render deployment
       - name: Trigger Deploy Hook
